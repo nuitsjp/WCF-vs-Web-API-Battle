@@ -16,7 +16,7 @@ namespace EmployeeManager.WebAPI.Console
             {
                 MeasuringInstrument.Measure(() =>
                 {
-                    var task = httpClient.GetStringAsync("http://localhost:9001/api/ManagedEmployees");
+                    var task = httpClient.GetStringAsync("http://ww-webapi.azurewebsites.net/api/ManagedEmployees");
                     task.Wait();
                     var employees = JsonConvert.DeserializeObject<List<ManagedEmployee>>(task.Result);
                     return employees;
