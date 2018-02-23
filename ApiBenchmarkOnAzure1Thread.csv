@@ -1,0 +1,10 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+/api/Values,100,12,11,34,2.30,0.000%,79.93605,34.07,33.73,436.4
+/ValuesService/Get,100,12,11,41,3.73,0.000%,75.30120,30.26,32.29,411.4
+/api/Values/100,100,21,18,47,3.57,0.000%,46.25347,305.86,19.70,6771.4
+/ValuesService/GetSalesOrderHeaderDetails/100,100,23,19,171,15.00,0.000%,41.54549,292.66,18.91,7213.4
+/api/Values/500,100,67,58,158,11.72,0.000%,14.70156,612.98,6.26,42695.4
+/ValuesService/GetSalesOrderHeaderDetails/500,100,74,61,173,13.29,0.000%,13.43364,622.32,6.12,47437.4
+/api/Values/1000,100,119,107,160,7.91,0.000%,8.33125,597.27,3.56,73410.4
+/ValuesService/GetSalesOrderHeaderDetails/1000,100,133,120,236,13.60,0.000%,7.47440,587.71,3.41,80516.9
+TOTAL,800,58,11,236,46.50,0.000%,3.57723,113.05,1.56,32361.6
